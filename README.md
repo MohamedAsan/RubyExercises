@@ -1,7 +1,7 @@
 # RubyExercises
 Exercise Problems at UFW BootCamp
 
-Source Codes:
+##Source Codes:
 
   business_hours.rb : 
     Manage the business hours, holidays
@@ -18,7 +18,7 @@ Source Codes:
   polynomials.rb : 
     Print a polynomial expression for given array of coefficients
   
-Outputs:
+##Outputs:
   
   Business Hours : Output of business_hours
   
