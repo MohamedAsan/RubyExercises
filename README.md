@@ -1,9 +1,9 @@
-# RubyExercises
+# Ruby Exercises
 Exercise Problems at UFW BootCamp
 
 ## Source Codes:
 
-  **business_hours.rb : **
+  **business_hours.rb :**
     
     Manage the business hours, holidays
     
