@@ -3,11 +3,11 @@ Exercise Problems at UFW BootCamp
 
 Source Codes:
 
-  business_hours.rb 
+  business_hours.rb : 
     Manage the business hours, holidays
     Calculate deadline for given time interval and starting time
   
-  music_player.rb
+  music_player.rb : 
     Play songs
     Skip songs
       Skip a song
@@ -15,7 +15,7 @@ Source Codes:
       Skip a range of songs in the middle
     Shuffle the playlist
   
-  polynomials.rb 
+  polynomials.rb : 
     Print a polynomial expression for given array of coefficients
   
 Outputs:
