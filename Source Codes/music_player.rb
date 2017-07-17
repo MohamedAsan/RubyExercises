@@ -6,16 +6,16 @@ class MusicPlayer
 			@songs.push(song+1)
 		end
 	end
-	
+
 	def skip_from_to(skip_from , skip_to)
 		@new_list = @songs.slice(0, skip_from - 1)
 		@new_list += @songs.slice(skip_to, @songs.length - skip_to)
 		@new_list += @songs.slice(skip_from - 1, skip_to - skip_from + 1)
 
 		@songs = @new_list if @save_changes
-		printSongs
+		print_songs
 	end
-	
+
 	def play
 		skip_tracks(0)
 	end
@@ -27,18 +27,18 @@ class MusicPlayer
 
 	def shuffle
 		@new_list = @songs.shuffle
-		
+
 		@songs = @new_list if @save_changes
-		printSongs	
+		print_songs
 	end
 
-	def printSongs
+	def print_songs
 		print "PlayList: "
-		
+
 		@new_list.each do |song|
-			print "#{song} " 
+			print "#{song} "
 		end
-		
+
 		puts
 	end
 end
